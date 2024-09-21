@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshFusion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Rowdies:wght@300;400;700&family=Satisfy&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><b>FreshFusion</b></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Anasayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="urunler.html">Ürünler</a></li>
+                    <li><a href="iletisim.html" class="main1">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <h2>"İletişim"</h2>
+        <h5>Doğal Sabunlarımız hakkında herhangi bir sorunuz, yorumunuz veya öneriniz varsa, bize ulaşmaktan çekinmeyin. </h5>
+        <h5>Müşteri memnuniyeti bizim için önceliktir ve size en iyi hizmeti sunmak için buradayız.</h5>
+        <h2></h2>
+        <div class="container3">
+            <h2>En kısa sürede size geri dönüş yapacağız.</h2>
+            <form action="/submit" method="POST">
+                <div class="form-group">
+                    <label for="ad">Adınız:</label>
+                    <input type="text" id="ad" name="ad" required>
+                </div>
+                <div class="form-group">
+                    <label for="soyad">Soyadınız:</label>
+                    <input type="text" id="soyad" name="soyad" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-posta:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mesaj">Mesajınız:</label>
+                    <textarea id="mesaj" name="mesaj" rows="4" cols="50" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Gönder">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
